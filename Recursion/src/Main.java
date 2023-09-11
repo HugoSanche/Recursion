@@ -4,7 +4,7 @@ public class Main {
         System.out.println(result);
 
         System.out.println("Test Fibonacci");
-        var fibonacci=fibonacci(4);
+        var fibonacci=fibonacci(5);
         System.out.println(fibonacci);
     }
     public static int factorial(int n){
