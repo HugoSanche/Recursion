@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class Fibonacci {
     static int[] result;
     public static void main(String[] args) {
-        int n=4;
+        int n=3;
         result=new int[n+1];
 
-        getFibonacciNumber(4);
+        getFibonacciNumber(n);
         System.out.println(Arrays.toString(result));
     }
     public static int  getFibonacciNumber(int n){
